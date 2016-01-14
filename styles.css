@@ -1,0 +1,100 @@
+/*Dasar*/
+* { 
+	margin: 0;
+	padding: 0; 
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: #42c3d7;
+}
+
+body {
+	background-color: #f0f3f6;
+	font-family: 'Titillium Web', sans-serif;
+}
+h1 {
+	text-align: center;
+	padding: 20px 0;
+	color: #32363a;
+}
+h1 span {
+	color: #42c3d7;
+}
+
+/*Pembangunan Logo*/
+.logo {
+	width: 325px;
+	height: 476px;
+	margin: 0 auto;
+	margin-top: 20px;
+	position: relative;
+}
+
+.elemen-satu {
+	position: absolute;
+	width: 100%;
+	height: 325px;
+	border: 64px solid #32363a;
+	bottom: 0;
+	/*radius lingkaran*/
+	-webkit-border-radius: 50%;
+	-webkit-border-top-right-radius: 0;
+	-moz-border-radius: 50%;
+	-moz-border-top-right-radius: 0;
+	border-radius: 50%;
+	border-top-right-radius: 0;
+}
+
+.elemen-satu:after {
+	content: '';
+	width: 32px;
+	background-color: #f0f3f6;
+	height: 100px;
+	position: absolute;
+	top: -90px;
+	right: 0;
+}
+
+.elemen-biru {
+	width: 123px;
+	height: 123px;
+	/*radius lingkaran dalam*/
+	-webkit-border-radius: 50%;
+	-webkit-border-top-right-radius: 0;
+	-moz-border-radius: 50%;
+	-moz-border-top-right-radius: 0;
+	border-radius: 50%;
+	border-top-right-radius: 0;
+
+	background: #42c3d7;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -61.5px;
+}
+
+.elemen-dua {
+	position: absolute;
+	width: 64px;
+	height: 152px;
+	background:  #32363a;
+	right: 0;
+	/*radius lingkaran dua*/
+	border-top-left-radius: 100px;
+	-moz-border-top-left-radius: 100px;
+	-webkit-border-top-left-radius: 100px;
+}
+
+footer {
+	position: fixed;
+	text-align: center;
+	width: 100%;
+	bottom: 10px;
+}
